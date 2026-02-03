@@ -17,9 +17,7 @@ function App() {
       {/*isLoading && <h1>Идет загрузка...</h1>*/}
       {/*error && <h1>{error}</h1>*/}
       {/*JSON.stringify(users, null, 2)*/}
-      <div style={{ display: 'flex' }}>
-        <PostContainer />
-      </div>
+      <PostContainer />
     </div>
   );
 }
